@@ -4,8 +4,8 @@
 }
 .App {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   padding: 20px;
   border-radius: 25px;
 }
@@ -17,18 +17,25 @@
 .spaceM {
   padding: 20px;
 }
+.paragraph {
+  inline-size: auto;
+  text-overflow: wrap;
+  line-height: 2rem;
+  padding-right: 3rem;
+}
 /* INFO */
 .icon {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 60%;
   border-radius: 30px;
 }
 .infoCard {
   background-color: #161619;
   color: #ffffff;
   width: 100%;
-  border-radius: 25px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .siteLink {
   text-decoration: none;
@@ -37,22 +44,33 @@
 }
 /* ABOUT */
 .aboutCard {
+  display: flex;
+  flex-direction: column;
   background-color: #1a1b21;
   color: #ffffff;
   width: 100%;
-  border-radius: 10px;
+  padding-left: 15%;
 }
 /* INTERESTS */
 .interestsCard {
+  display: flex;
+  flex-direction: column;
   background-color: #1a1b21;
   color: #ffffff;
   width: 100%;
-  border-radius: 10px;
+  padding-left: 15%;
 }
 /* FOOTER */
 .footerCard {
+  display: flex;
+  flex-direction: column;
   background-color: #161619;
   color: #ffffff;
   width: 100%;
-  border-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.socialButtons {
+  display: flex;
+  justify-content: space-around;
 }
