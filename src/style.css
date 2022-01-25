@@ -1,0 +1,58 @@
+/* General */
+* {
+  padding: 0;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+}
+/* Personalized */
+.centerM {
+  display: flex;
+  justify-content: center;
+}
+.spaceM {
+  padding: 20px;
+}
+/* INFO */
+.icon {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 30px;
+}
+.infoCard {
+  background-color: #161619;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 25px;
+}
+.siteLink {
+  text-decoration: none;
+  font-size: large;
+  padding: 10px;
+}
+/* ABOUT */
+.aboutCard {
+  background-color: #1a1b21;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+/* INTERESTS */
+.interestsCard {
+  background-color: #1a1b21;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+/* FOOTER */
+.footerCard {
+  background-color: #161619;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
